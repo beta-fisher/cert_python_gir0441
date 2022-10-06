@@ -1,3 +1,7 @@
+'''
+Autor: Angel Armando Ramirez Vazquez
+Fecha: 27 sep 2022
+'''
 def Collatz(numero):
     pasos = 0
     while numero != 1:

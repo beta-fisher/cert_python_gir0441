@@ -1,3 +1,7 @@
+'''
+Autor: Angel Armando Ramirez Vazquez
+Fecha: 27 sep 2022
+'''
 miLista = [1, 2, 4, 4, 1, 4, 2, 6, 2, 9]
 
 listaTemp = []

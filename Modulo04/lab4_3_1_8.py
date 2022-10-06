@@ -1,3 +1,7 @@
+'''
+Autor: Angel Armando Ramirez Vazquez
+Fecha: 4 sep 2022
+'''
 def isYearLeap(año):
     if año < 1582:
         return False

@@ -1,3 +1,7 @@
+'''
+Autor: Angel Armando Ramirez Vazquez
+Fecha: 27 sep 2022
+'''
 hat_list = [1,2,3,4,5]  # Esta es una lista existente de números ocultos en el sombrero.
 
 # Paso 1: escribe una línea de código que solicite al usuario

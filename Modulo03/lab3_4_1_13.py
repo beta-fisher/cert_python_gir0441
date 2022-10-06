@@ -1,3 +1,7 @@
+'''
+Autor: Angel Armando Ramirez Vazquez
+Fecha: 27 sep 2022
+'''
 # paso 1
 Beatles = []
 print("Paso 1:", Beatles)

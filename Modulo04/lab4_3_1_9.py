@@ -1,3 +1,7 @@
+'''
+Autor: Angel Armando Ramirez Vazquez
+Fecha: 4 sep 2022
+'''
 def is_prime(num):
     div = 2
     while div < num:

@@ -1,3 +1,8 @@
+'''
+Autor: Angel Armando Ramirez Vazquez
+Fecha: 27 sep 2022
+'''
+
 palabraSinVocal = ""
 userWord = ""
 

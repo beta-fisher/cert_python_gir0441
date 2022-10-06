@@ -1,4 +1,7 @@
-
+'''
+Autor: Angel Armando Ramirez Vazquez
+Fecha: 4 sep 2022
+'''
 def is_year_leap(year):
     Bisiesto = False
     diviEntre_4 = year % 4

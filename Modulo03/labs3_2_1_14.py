@@ -1,3 +1,7 @@
+'''
+Autor: Angel Armando Ramirez Vazquez
+Fecha: 27 sep 2022
+'''
 bloques = int(input("Ingrese el número de bloques: "))
 altura = 0
 

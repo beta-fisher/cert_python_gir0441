@@ -1,3 +1,8 @@
+'''
+Autor: Angel Armando Ramirez Vazquez
+Fecha: 29 sep 2022
+'''
+
 def devorador(entrada):
     entrada = entrada.upper()
     

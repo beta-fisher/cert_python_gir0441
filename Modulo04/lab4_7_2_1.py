@@ -1,6 +1,10 @@
 '''
+4.7.2.1 PROYECTO: TIC-TAC-TOE
+
 Autor: Angel Armando Ramirez Vazquez
 Fecha: 6 sep 2022
+
+Crea un programa con el caul juagar al gato y al ratón siendo la maquina x y tu o
 '''
 def DisplayBoard(board):
    # La función acepta un parámetro el cual contiene el estado actual del tablero
@@ -22,7 +26,7 @@ def  EnterMove(board):
         move = input("Enter your move: ") 
         ok = len(move) == 1 and move >= '1' and move <= '9' 
         if not ok:
-            print("Bad move - repeat your input!") 
+            print("Mal moviento repitelo!") 
             continue
         change_number = int(move)
         move = int(move) - 1       
@@ -31,7 +35,7 @@ def  EnterMove(board):
         sign = board[row][col]    
         ok = sign not in ['O','X'] 
         if not ok:               
-            print("Field already occupied - repeat your input!")
+            print("Mal moviento repitelo!") 
             continue
     board[row][col] = 'O'  
 

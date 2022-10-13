@@ -1,6 +1,11 @@
 '''
+3.2.1.15 LABORATORIO: Hipótesis de Collatz 
+
 Autor: Angel Armando Ramirez Vazquez
 Fecha: 27 sep 2022
+
+Escribe un programa que lea un número natural y ejecute los pasos anteriores 
+siempre que c0 sea diferente de 1.
 '''
 def Collatz(numero):
     pasos = 0

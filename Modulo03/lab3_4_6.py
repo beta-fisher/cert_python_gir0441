@@ -1,6 +1,10 @@
 '''
+ 3.4.1.6 LABORATORIO: Lo básico de las listas
+
 Autor: Angel Armando Ramirez Vazquez
 Fecha: 27 sep 2022
+
+Escribir un programa para listas
 '''
 hat_list = [1,2,3,4,5]  # Esta es una lista existente de números ocultos en el sombrero.
 

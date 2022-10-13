@@ -1,6 +1,10 @@
 '''
+3.4.1.13 LABORATORIO: Lo básico de las listas - Los Beatles
+
 Autor: Angel Armando Ramirez Vazquez
 Fecha: 27 sep 2022
+
+Escribir un programa de listas que se puedan actulizar
 '''
 # paso 1
 Beatles = []

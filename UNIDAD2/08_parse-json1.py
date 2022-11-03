@@ -4,14 +4,14 @@ Fecha: 25/octubre/2022
 
 '''
 
-#Importación de librerías existentes
+#Importación de modulos existentes
 
 import urllib.parse
 import requests
 
 main_api = "https://www.mapquestapi.com/directions/v2/route?"
-orig = "Dolores Hidalgo"
-dest = "México"
+orig = "Washington"
+dest = "Baltimore"
 key  = "RviDNX6lvy58NDKYBhxHATAC6kjDZ4Z9"
 url  = main_api + urllib.parse.urlencode({"key":key, "from":orig, "to":dest})
 

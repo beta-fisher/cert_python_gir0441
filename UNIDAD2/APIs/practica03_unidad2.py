@@ -48,21 +48,31 @@ while True:
     print("URL: ",url)    
 #print(json_data)
     json_data = requests.get(url).json()
-#    print("json_data: \n",json_data)
     json_status = json_data["status"]
     print(json_status)
-    
-    
-    
-    
+    #print(json_data)
+
     if str(json_status) == "ok":
+            print()
             print("API Status: " + str(json_status) + " = A successful route call.\n")
-             #AQUI SE AGREGARA LA INFORMACIÓN OBTENIDA 
-            response = urlopen(url)
-            data = json.loads(response.read())
-            for article in data:
-                print(article)
-                           
+            
+            for e in json_data['articles']:
+                  print('\n')
+                  print('======================= ARTICULO PUBLICADOS DE '+q+' CON FECHA '+fecha+" ===========================================\n")
+                  print('Titulos del artículo: ')
+                  print(e['title'])
+                  print('\n')
+                  print('Nombre del autor: ')
+                  print(e['author'])
+                  print('\n')
+                  print('Descripción de la nota: \n')
+                  print(e['description'])
+                  print('\n')
+                  print('====================================================================================================================\n')
+                  
+                
+            
+                
             #print("pagina web: " + str(json_data["articles"]["0"]["author"]))
                                    
     elif str(json_status) == "INVALID_REQUEST":

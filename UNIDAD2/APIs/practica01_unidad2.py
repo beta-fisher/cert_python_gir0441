@@ -43,10 +43,11 @@ while True:
         break
     url = (main_api+'latlng='+lat+","+lng+'&'+'key='+key+"\n")    
     print("URL: ",url)    
-#print(json_data)
+
     json_data = requests.get(url).json()
-    json_status = json_data["info"]["statuscode"]
-    print(json_status)
+    print(json_data)
+    
+        
 
 
     

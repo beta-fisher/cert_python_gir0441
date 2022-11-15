@@ -17,7 +17,7 @@ url  = main_api + urllib.parse.urlencode({"key":key, "from":orig, "to":dest})
 
 print("URL: " + (url))
 
-#Declaración de una variable que obtenga información de jason rquest por medio de una URL
+#Request status if the statuscode key is set to value 0
 json_data = requests.get(url).json()
 json_status = json_data["info"]["statuscode"]
 

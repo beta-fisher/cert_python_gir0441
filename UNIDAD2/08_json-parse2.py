@@ -20,6 +20,7 @@ print("URL: " + (url))
 #Request status if the statuscode key is set to value 0
 json_data = requests.get(url).json()
 json_status = json_data["info"]["statuscode"]
+print (json_data)
 
 if json_status == 0:
     print("API Status: " + str(json_status) + " = A successful route call.\n")
